@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    width:90%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    /* border: 1px solid brown; */
+}
+#name{
+    
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid brown; */
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: xx-large;
+
+}
+.mainnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    height: 80%; 
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid brown; */
+   
+}
+.mainnav a{
+    background-image: url(./buttonbg.png);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: .1rem;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: center;
+}
+#about{
+    width: 3.8rem;
+}
+#skills{
+    width: 3.5rem;
+}
+#exp{
+    width: 5.8rem;
+}
+#edu{
+    width: 5.8rem;
+}
+#portfolio{
+    width: 5rem;
+}
+#contact{
+    width: 4.5rem;
+}
+.mainnav a:link{
+    text-decoration: none;
+}
+.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100%;
+
+}
+#dp{
+    background-image: url(./dp.jpg);
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    /* border: 1px solid wheat; */
+}
+#mainname{
+    color: white;
+    text-align: center;
+    width: 19rem;
+    height: 3rem;
+    /* border: 1px solid rgb(252, 177, 177); */
+    font-weight: 500;
+    font-size: xx-large;
+
+}
+#work{
+    color: white;
+    text-align: center;
+    width: 30rem;
+    height: 3rem;
+    /* border: 1px solid rgb(252, 177, 177); */
+    font-weight: 500;
+    font-size: x-large;
+
+}
+.icons{
+    width: 10rem;
+    height: 3rem;
+    /* border: 1px solid rgb(252, 177, 177); */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.icon i{
+    font-size: x-large;
+    color: white;
+}
