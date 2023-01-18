@@ -1,11 +1,11 @@
 #mainname{
-    animation: ZoomInOut ease-in-out 3s;
+    animation: ZoomInOut ease-in-out 1.5s;
 }
 #work{
-    animation: ZoomInOut ease-in-out 3s;
+    animation: ZoomInOut ease-in-out 1.5s;
 }
 .icons{
-    animation: ZoomInOut ease-in-out 3s;
+    animation: ZoomInOut ease-in-out 1.5s;
 }
 @keyframes ZoomInOut {
     0%{
