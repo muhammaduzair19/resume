@@ -1,0 +1,18 @@
+#mainname{
+    animation: ZoomInOut ease-in-out 3s;
+}
+#work{
+    animation: ZoomInOut ease-in-out 3s;
+}
+.icons{
+    animation: ZoomInOut ease-in-out 3s;
+}
+@keyframes ZoomInOut {
+    0%{
+        transform: scale(25%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+    
+}
