@@ -4,9 +4,9 @@
     padding: 0;
 }
 .main {
-    margin: 10px auto;
+    margin: 2rem auto;
     width:90%;
-    height: 100vh;
+    height: 100%;
 }
 .nav{
     background-color: rgb(115, 161, 161);
@@ -16,13 +16,11 @@
     align-items: center;
     width: 100%;
     height: 5rem;
-    /* border: 1px solid brown; */
 }
 #name{
     padding-left: 30px;
     width: 60%;
     height: 80%;
-    /* border: 1px solid brown; */
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -75,6 +73,8 @@
     text-decoration: none;
 }
 .bg{
+    box-shadow: 10px gray;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,7 +130,7 @@
 }
 .downhire{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     width: 100%;
     /* border: 1px solid white; */
 }

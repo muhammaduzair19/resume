@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 2rem auto;
+    width:90%;
+    height: 100vh;
+    border: 1px solid black;
+}
+.description{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.head{
+    font-size: xx-large;
+    font-weight: lighter;
+    border: 1px solid black;
+
+}
