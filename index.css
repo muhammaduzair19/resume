@@ -1,5 +1,7 @@
 body{
     font-family: 'Lato', sans-serif;
+    /* background-color: rgb(160, 205, 205); */
+    background-color: black;
 }
 * {
     box-sizing: border-box;
@@ -7,13 +9,14 @@ body{
     padding: 0;
 }
 .main {
-    margin: 2rem auto;
-    width:90%;
+    margin-top: 2rem;
+    width:95%;
     height: 100%;
 }
 .nav{
-    background-color: rgb(115, 161, 161);
-    border-top-left-radius: 50px;
+    background-color: rgb(167, 230, 255);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,19 +25,21 @@ body{
 }
 #name{
     padding-left: 30px;
-    width: 60%;
+    width: 30%;
     height: 80%;
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: xx-large;
+    font-weight: 600;
+    font-size: 2.3rem;
+    /* border: 1px solid brown; */
+
 
 }
 .mainnav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 45%;
+    justify-content: space-around;
+    width: 50%;
     height: 80%; 
     padding-left: 10px;
     padding-right: 10px;
@@ -42,7 +47,7 @@ body{
    
 }
 .mainnav a{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 35px;
     padding: .1rem;
     color: rgb(0, 0, 0);
@@ -50,27 +55,27 @@ body{
     text-align: center;
 }
 .mainnav a:hover{
-    background-color: #AFAFAF;
+    background-color: #000000;
     transform: scale(1.1);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #about{
-    width: 3.8rem;
+    width: 4rem;
 }
 #skills{
-    width: 3.5rem;
+    width: 3.7rem;
 }
 #exp{
-    width: 5.8rem;
+    width: 6.4rem;
 }
 #edu{
-    width: 5.8rem;
+    width: 6.2rem;
 }
 #portfolio{
-    width: 5rem;
+    width: 5.5rem;
 }
 #contact{
-    width: 4.5rem;
+    width: 5rem;
 }
 .mainnav a:link{
     text-decoration: none;
@@ -79,14 +84,18 @@ body{
     box-shadow: 10px gray;
     padding-bottom: 4rem;
     display: flex;
+    padding-top: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./blackbg.jpg);
+    background-color: black;
+    /* background-color: rgb(160, 205, 205); */
+    /* background-image: url(./blackbg.jpg); */
     background-size: cover;
     /* border: 1px solid green; */
     width: 100%;
     height: 100%;
+    /* opacity: 80%; */
 
 }
 #dp{
@@ -95,7 +104,8 @@ body{
   
     width: 15rem;
     height: 15rem;
-    border: 10px solid rgb(255, 255, 255);
+    border: 10px solid rgb(167, 230, 255);
+    border-radius: 1rem;
 }
 #mainname{
     color: white;
