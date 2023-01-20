@@ -49,7 +49,7 @@ body{
     height: 100vh;
     border: 1px solid black;
 }
-.description{
+.heading{
     margin-top: 3rem;
     color: white;
     display: flex;
@@ -82,4 +82,97 @@ body{
     border-bottom-right-radius: 3rem;
     width: 8rem;
 
+}
+.description{
+    padding: 1rem;
+
+    display: flex;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    width: 100%;
+    height: 30rem;
+    /* border: 1px solid white; */
+}
+.briefabout{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(167, 230, 255);
+    margin-top: 2rem;
+    margin-right: 1rem;
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid white; */
+    padding: 4rem;
+}
+.briefabout p{
+    text-align: justify;
+    font-size: 1.3rem;
+    position: relative;
+}
+.biodata{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(167, 230, 255);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 40%;
+    height: 80%;
+    /* border: 1px solid white; */
+    padding: 4rem;
+}
+.mainbio{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid rgb(0, 0, 0); */
+
+}
+.bioline{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+#bioline1{
+    width: 47%;
+}
+#bioline3{
+    width: 73%;
+}
+#bioline4{
+    width: 73%;
+}
+#bioline5{
+    width: 90%;
+}
+#bioline2 a:link{
+    text-decoration: none;
+    color: black;
+}
+#bioline3 a:link{
+    text-decoration: none;
+    color: black;
+}
+.bioline a:hover{
+    color: rgb(151, 98, 98);
+}
+
+ANIMATIONS
+
+.briefabout{
+    animation: LeftMove linear 1.5s;
+}
+@keyframes LeftMove {
+    0%{
+       right: 0; 
+        
+    }
+    100%{
+        left: 12rem;
+    }
 }
